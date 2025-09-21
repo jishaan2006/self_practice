@@ -8,7 +8,7 @@ int main()
     }
     a[0]=last;
     printf("shifted array is:\n");
-    for(int j=0;j<5;j++){
+    for(int j=0;j<5;j++){ 
         printf("%d\n",a[j]);
     }
 }
