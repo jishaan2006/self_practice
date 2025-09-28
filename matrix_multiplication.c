@@ -29,13 +29,13 @@ int main()
     {
         int res[arows][bcolumns];
         int sum = 0;
-        for (int i = 0; i < arows; i++)
+        for (int i = 0; i < arows; i++)//for matrix multiplication
         {
             for (int j = 0; j < bcolumns; j++)
             {
                 for (int k = 0; k < acolumns; k++)
                 {
-                    sum = sum + arr1[i][k] * arr2[k][j];
+                    sum = sum + arr1[i][k] * arr2[k][j];//i will increment after all columns of j taken
                 }
                 res[i][j] = sum;
                 sum = 0;
@@ -52,7 +52,7 @@ int main()
     }
     else
     {
-        printf("Invalid order of matrix");
+        printf("Invalid order of matrix provided");
     }
     return 0;
 }
