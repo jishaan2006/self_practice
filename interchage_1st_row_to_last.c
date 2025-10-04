@@ -17,7 +17,7 @@ int main()
     {
         int temp = arr[0][j];
         arr[0][j] = arr[rows - 1][j];
-        arr[rows - 1][j] = temp;
+        arr[rows - 1][j] = temp; 
     }
         printf("New matrix is :\n");
     for (int i = 0; i < rows; i++)
