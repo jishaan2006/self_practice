@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main()
-{
+{ 
     int a[3][3] =
         {{0, 2, 3},
          {2, 0, 6},
