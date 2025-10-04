@@ -12,7 +12,7 @@ int main(){
         for(int j=0;j<3;j++){
             if(i>j){
                sum=sum+arr[i][j];
-            }
+            } 
         }
     }
      printf("Sum of lower diagonal elements are %d",sum);
