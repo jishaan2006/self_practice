@@ -6,4 +6,4 @@ int main(){
     p=&a;
     q=&b;
     printf("%d",*p+*q);
-}
+} 
